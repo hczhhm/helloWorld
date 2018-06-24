@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 
 import os
-
+import pymysql
+pymysql.install_as_MySQLdb()
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'y$hogr_a$0y6dfy!qu-s4c5i)_oebirr*tp#4trjj^t6)31$dw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -75,8 +77,15 @@ WSGI_APPLICATION = 'helloWorld.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+       'ENGINE': 'django.db.backends.mysql',
+       'NAME': 'letterService',
+       'USER':'root',
+       'PASSWORD':'huangczh109@',
+       'HOST':'127.0.0.1',
+       'PORT':'3306',
+
     }
 }
 

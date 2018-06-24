@@ -14,9 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf.urls import url
-
-from . import view
+from . import view,myFirstPost,userInfo,postName,dataFormMysql
 
 urlpatterns = [
     url(r'^hello$', view.hello),
+    url(r'^myFirstPost', myFirstPost.myFirstPost),
+    url(r'^api/user', userInfo.userInfo),
+    url(r'^api/searchForUserId', postName.post_name),
+    url(r'^api/myInfo', dataFormMysql.catMyInfo),
 ]
