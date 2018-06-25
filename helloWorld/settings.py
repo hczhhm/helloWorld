@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 
 import os
 import pymysql
+# import
 pymysql.install_as_MySQLdb()
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -38,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
+    'TestModel',
+    # 'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -80,10 +82,10 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
        'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'letterService',
+       'NAME': 'appNetWork',
        'USER':'root',
-       'PASSWORD':'huangczh109@',
-       'HOST':'127.0.0.1',
+       'PASSWORD':'huangczh109HM@',
+       'HOST':'118.31.54.12',
        'PORT':'3306',
 
     }
