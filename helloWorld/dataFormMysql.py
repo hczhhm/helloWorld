@@ -6,6 +6,7 @@ from django.http import HttpResponse
 import  json
 from django.views.decorators.csrf import csrf_exempt
 import pymysql
+
 @csrf_exempt
 
 def catMyInfo(request):
