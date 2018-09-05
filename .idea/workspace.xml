@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65114393-eb7c-4e31-9acb-c0783f65394b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/helloWorld.iml" afterPath="$PROJECT_DIR$/.idea/helloWorld.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/helloWorld/Register.py" afterPath="$PROJECT_DIR$/helloWorld/Register.py" />
       <change beforePath="$PROJECT_DIR$/helloWorld/dataFormMysql.py" afterPath="$PROJECT_DIR$/helloWorld/dataFormMysql.py" />
+      <change beforePath="$PROJECT_DIR$/helloWorld/settings.py" afterPath="$PROJECT_DIR$/helloWorld/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +29,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloWorld/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="303">
+              <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -90,7 +87,7 @@
       <file leaf-file-name="Register.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloWorld/Register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="225">
               <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
               <folding>
                 <element signature="e#44#80#0" expanded="true" />
@@ -112,7 +109,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestModel/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="15">
               <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -124,8 +121,8 @@
       <file leaf-file-name="dataFormMysql.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helloWorld/dataFormMysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="234">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="e#48#83#0" expanded="true" />
               </folding>
@@ -168,18 +165,18 @@
         <option value="$PROJECT_DIR$/helloWorld/postName.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/helloWorld/Models.py" />
-        <option value="$PROJECT_DIR$/helloWorld/settings.py" />
         <option value="$PROJECT_DIR$/helloWorld/urls.py" />
         <option value="$PROJECT_DIR$/helloWorld/Login.py" />
         <option value="$PROJECT_DIR$/TestModel/models.py" />
-        <option value="$PROJECT_DIR$/helloWorld/dataFormMysql.py" />
         <option value="$PROJECT_DIR$/helloWorld/Register.py" />
+        <option value="$PROJECT_DIR$/helloWorld/settings.py" />
+        <option value="$PROJECT_DIR$/helloWorld/dataFormMysql.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
-    <option name="y" value="46" />
+    <option name="x" value="48" />
+    <option name="y" value="23" />
     <option name="width" value="1232" />
     <option name="height" value="777" />
   </component>
@@ -218,6 +215,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +381,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="46" width="1232" height="777" extended-state="0" />
+    <frame x="48" y="23" width="1232" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3699422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -696,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestModel/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="15">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -724,6 +721,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/helloWorld/Register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#44#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/helloWorld/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -734,31 +741,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloWorld/userInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloWorld/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="303">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloWorld/Register.py">
+    <entry file="file://$PROJECT_DIR$/helloWorld/userInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#44#80#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helloWorld/dataFormMysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="234">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
             <element signature="e#48#83#0" expanded="true" />
           </folding>

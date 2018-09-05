@@ -84,9 +84,9 @@ DATABASES = {
        'ENGINE': 'django.db.backends.mysql',
        'NAME': 'appNetWork',
        'USER':'root',
-       'PASSWORD':'huangczh109HM@',
-       'HOST':'118.31.54.12',
-       'PORT':'3306',
+       'PASSWORD':'*',
+       'HOST':'*',
+       'PORT':'*',
 
     }
 }

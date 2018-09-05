@@ -17,10 +17,7 @@ def catMyInfo(request):
         # cursor.execute('select * from userTable where userId = %s',dic['userId'])
         # row = cursor.fetchone()
         #cursorclass = pymysql.cursors.DictCursor 设置数据返回类型为字典，默认为数据
-        #db = pymysql.connect('127.0.0.1', 'root', 'huangczh109@', 'letterService',cursorclass = pymysql.cursors.DictCursor)
-        # cursor = db.cursor()
-        db = pymysql.connect('118.31.54.12', 'root', 'huangczh109HM@', 'appNetWork',
-                             cursorclass=pymysql.cursors.DictCursor)
+        db = pymysql.connect('127.0.0.1', 'root', 'huangczh109@', 'letterService',cursorclass = pymysql.cursors.DictCursor)
         cursor = db.cursor()
         sql = "select * from userinformation where userId = '%s'" % dic['userId']
         cursor.execute(sql)
